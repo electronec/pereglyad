@@ -1,0 +1,29 @@
+Сервер ставился по этой инструкции:
+http://senokosov.info/lamp/install-lamp
+
+
+Скрипты написаны при помощи этой страницы:
+https://habrahabr.ru/post/13726/
+
+Создать базу данных
+Импортировать в нее приложеный *.sql-файл (база будет пустой)
+Задать пароль пользователя на эту базу (????)
+
+В базу добавлялись поля:
+
+Добавление:
+ALTER TABLE `tab_name` ADD `pole_name` VARCHAR(40) NOT NULL
+
+Удаление:
+ALTER TABLE `tab_name` DROP `pole_name`
+
+Для искажения JAVA-скрипта - обфускатор:
+https://www.javascriptobfuscator.com/Javascript-Obfuscator.aspx
+
+Для искажения source src в HTML5 плеере:
+http://pr-cy.ru/html_encrypter/
+http://www.colddata.com/developers/online_tools/obfuscator.shtml#obfuscator_view
+
+Для определения, какя система смотрит видео (Андроид/не Андроид), подключаем разные плейеры
+http://sitear.ru/material/opredelenie-android-na-php-javascript-htaccess
+

@@ -1,0 +1,50 @@
+<HTML>
+<head>
+    <title>Перегляд зiбрання</title>
+
+    <script src="http://jwpsrv.com/library/bxxn9uN5EeSUIw4AfQhyIQ.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html">
+    <link href="mainstyle.css" rel="stylesheet" type="text/css">
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<body>
+
+<div align="center">
+
+    <div id='playerBiCEUUHovyCz'></div>
+    <script type='text/javascript'>
+var _0x7b9e=["\x72\x74\x6D\x70\x3A\x2F\x2F\x31\x39\x34\x2E\x31\x36\x35\x2E\x34\x36\x2E\x31\x37\x38\x2F\x61\x70\x70\x7A\x61\x6C\x2F\x74\x72\x61\x6E\x73\x6C","\u041F\u0435\u0440\u0435\u0433\u043B\u044F\u0434\x20\u0437\x69\u0431\u0440\u0430\u043D\u043D\u044F","\x36\x34\x30","\x33\x36\x30","\x66\x61\x6C\x73\x65","\x73\x65\x74\x75\x70","\x70\x6C\x61\x79\x65\x72\x42\x69\x43\x45\x55\x55\x48\x6F\x76\x79\x43\x7A"];jwplayer(_0x7b9e[6])[_0x7b9e[5]]({file:_0x7b9e[0],title:_0x7b9e[1],width:_0x7b9e[2],height:_0x7b9e[3],autostart:_0x7b9e[4]})
+    </script>
+
+</div>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/
+libs/jquery/1.3.0/jquery.min.js"></script>
+<script type="text/javascript">
+var auto_refresh = setInterval(
+function ()
+{
+    $.ajax({
+      url: "activ.php",
+      type: "POST",
+      data: "answer=1",
+        headers: {
+            'Cookie': document.cookie},
+      timeout: 3000
+    });
+}, 3000); // refresh every 6 seconds
+</script>
+
+
+
+
+<div align="center">
+    <span style="font-size: small; color: #938585; font-style: italic">
+        Ця трансляція не є заміною відвідування зібрання.<br> Вона створена для хворих, <br>або тих, хто по поважних причинах не може виходити із дому.<br>
+    </span>
+</div>
+
+</body>
+</html>

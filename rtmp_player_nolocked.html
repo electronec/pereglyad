@@ -1,0 +1,57 @@
+<HTML>
+<head>
+    <title>Перегляд зiбрання</title>
+
+    <script src="https://content.jwplatform.com/libraries/FwD6F74d.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html">
+    <link href="mainstyle.css" rel="stylesheet" type="text/css">
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<body>
+
+<div align="center">
+
+    <div id='playerBiCEUUHovyCz'></div>
+    <script type='text/javascript'>
+        jwplayer('playerBiCEUUHovyCz').setup({
+            file: 'http://194.165.46.178:18180/hls/transl.m3u',
+            title: 'Перегляд зiбрання',
+            width: '640',
+            height: '360',
+            autostart: 'false',
+        });
+    </script>
+
+</div>
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/
+libs/jquery/1.3.0/jquery.min.js"></script>
+<script type="text/javascript">
+var auto_refresh = setInterval(
+function ()
+{
+    $.ajax({
+      url: "activ.php",
+      type: "POST",
+      data: "answer=1",
+        headers: {
+            'Cookie': document.cookie},
+      timeout: 15000
+    });
+}, 15000); // refresh every 30 seconds
+</script>
+
+
+
+
+<div align="center">
+    <span style="font-size: small; color: #938585; font-style: italic">
+        Ця трансляція не є заміною відвідування зібрання.<br> Вона створена для хворих, <br>або тих, хто по поважних причинах не може виходити із дому.<br>
+    </span>
+</div>
+
+</body>
+</html>
